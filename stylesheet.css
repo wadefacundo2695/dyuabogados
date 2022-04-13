@@ -1,0 +1,281 @@
+html, body {margin: 0; padding: 0; overflow-x:hidden;}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-logo {
+    background: #f1f2f7;
+    border: none;
+    white-space: normal;
+    font-size: 1rem;
+}
+
+@media (min-width: 360px) {
+    .card-body {
+        background: #f1f2f7;
+        min-height: 5rem;
+    }
+
+    .card {
+        height: 20rem;
+        max-height: 20rem;
+    }
+
+    .header-logo {
+        white-space: nowrap;
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        max-height: inherit;
+        border: none;
+        background:  #f1f2f7;
+        color: #1F1F27;
+    }
+
+    .nav-link:focus{
+        outline: none;
+    }
+
+    .navbar {
+        background:  #f1f2f7 !important;
+    }
+}
+
+
+@media (min-width: 540px) {
+    .card-body {
+        background: #f1f2f7;
+        min-height: 5rem;
+    }
+
+    .card {
+        height: 26rem;
+        max-height: 26rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-body {
+        background: #f1f2f7;
+        max-height: 5rem;
+    }
+
+    .card {
+        height: 25rem;
+        max-height: 25rem;
+    }
+}
+
+@media (min-width: 990px) {
+    .card-body {
+        background: #f1f2f7;
+        max-height: 8rem;
+    }
+
+    .card {
+        height: 27rem;
+        max-height: 20rem;
+    }
+
+    .header-span {
+        font-size: 1.15rem;
+    }
+
+    .navbar {
+        height: 100%;
+        background: linear-gradient(180deg, #f1f2f7 64%, #1F1F27 36%) !important;
+        padding-bottom: 0 !important;
+    }
+
+    .header-logo {
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+
+    .nav-item {
+        font-size: 0.95rem;
+        white-space: nowrap;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .nav-item:hover {
+        background: #f1f2f7;
+        background-clip: border-box;
+        color: #1F1F27;
+        transition: 0.2s;
+    }
+    
+    .nav-item:hover .nav-link {
+        background-color: #f1f2f7 !important;
+        color: #1F1F27 !important;
+        transition: 0.2s;
+    }
+    
+    .nav-link {
+        padding-left: 1.8rem !important;
+        padding-right: 1.8rem !important;
+        max-height: inherit;
+        border: none;
+        color: #f1f2f7 !important;
+        background: #1F1F27;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .header-logo {
+        white-space: normal;
+    }
+
+    .nav-item {
+        white-space: normal;
+    }
+
+    .card-body {
+        background: #f1f2f7;
+        min-height: 5rem;
+    }
+
+    .card {
+        height: 25rem;
+        max-height: 25rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header-logo {
+        white-space: normal;
+    }
+
+    .nav-item {
+        white-space: normal;
+    }
+
+    .card-body {
+        background: #f1f2f7;
+        min-height: 5rem;
+    }
+
+    .card {
+        height: 22rem;
+        max-height: 22rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .card-body {
+        background: #f1f2f7;
+        min-height: 5rem;
+    }
+
+    .card {
+        height: 27rem;
+        max-height: 27rem;
+    }
+}
+
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.home
+{
+    background: url('justicia.webp') no-repeat;
+    backdrop-filter: blur(4px);
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-height: 800px;
+}
+
+.lead-header {
+    color: #f1f2f7;
+}
+
+.lead {
+    color: #f1f2f7;
+}
+
+span {
+    padding-left: 0.5rem;
+}
+
+.tabcontent {
+    display: none;
+    animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#main-tab {
+    display: block;
+    text-align: justify;
+}
+
+#presentation-text {
+    font-weight: 400;
+    padding-left: 0.5rem;
+    line-height: 2rem;
+}
+
+.list-tab-item {
+    font-size: 1.25rem;
+    color: #f1f2f7;
+}
+
+.span-header {
+    text-shadow: -4px 4px 9px rgba(103,103,103,0.46);
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.mapa {
+    box-shadow: -4px 4px 9px 0px rgba(103,103,103,0.46);
+    -webkit-box-shadow: -4px 4px 9px 0px rgba(103,103,103,0.46);
+    -moz-box-shadow: -4px 4px 9px 0px rgba(103,103,103,0.46);
+}
+
+.btn-submit {
+    border: 0;
+    color: #f1f2f7;
+    background: #1F1F27;
+    padding: 0.75rem;
+    min-width: 10rem;
+}
+
+.form-control {
+    background-color: #f1f2f7;
+}
+
+footer {
+    color: #f1f2f7;
+    min-height: 70px;
+    background-color: #1F1F27; 
+}
+
+
+.card-img-top {
+    height: auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
