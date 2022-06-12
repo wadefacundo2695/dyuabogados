@@ -1,4 +1,9 @@
-html, body {margin: 0; padding: 0; overflow-x:hidden;}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -30,16 +35,21 @@ body {
     .nav-link {
         max-height: inherit;
         border: none;
-        background:  #f1f2f7;
+        background: #f1f2f7;
         color: #1F1F27;
     }
 
-    .nav-link:focus{
+    .nav-link:focus {
         outline: none;
     }
 
     .navbar {
-        background:  #f1f2f7 !important;
+        background: #f1f2f7 !important;
+    }
+
+    .home {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
     }
 }
 
@@ -53,6 +63,12 @@ body {
     .card {
         height: 26rem;
         max-height: 26rem;
+    }
+
+
+    .home {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
 
@@ -94,6 +110,11 @@ body {
         font-size: 1.5rem;
     }
 
+    .home {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
     .nav-item {
         font-size: 0.95rem;
         white-space: nowrap;
@@ -107,13 +128,13 @@ body {
         color: #1F1F27;
         transition: 0.2s;
     }
-    
+
     .nav-item:hover .nav-link {
         background-color: #f1f2f7 !important;
         color: #1F1F27 !important;
         transition: 0.2s;
     }
-    
+
     .nav-link {
         padding-left: 1.8rem !important;
         padding-right: 1.8rem !important;
@@ -182,14 +203,12 @@ body {
     padding-right: 1rem;
 }
 
-.home
-{
-    background: url('justicia.webp') no-repeat;
+.home {
+    background: url('../img/justicia.webp') no-repeat;
     backdrop-filter: blur(4px);
     background-size: cover;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    min-height: 800px;
+    height: 100%;
+    min-height: 80.9vh;
 }
 
 .lead-header {
@@ -210,8 +229,13 @@ span {
 }
 
 @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 #main-tab {
@@ -231,7 +255,7 @@ span {
 }
 
 .span-header {
-    text-shadow: -4px 4px 9px rgba(103,103,103,0.46);
+    text-shadow: -4px 4px 9px rgba(103, 103, 103, 0.46);
 }
 
 .navbar-toggler:focus {
@@ -240,9 +264,9 @@ span {
 }
 
 .mapa {
-    box-shadow: -4px 4px 9px 0px rgba(103,103,103,0.46);
-    -webkit-box-shadow: -4px 4px 9px 0px rgba(103,103,103,0.46);
-    -moz-box-shadow: -4px 4px 9px 0px rgba(103,103,103,0.46);
+    box-shadow: -4px 4px 9px 0px rgba(103, 103, 103, 0.46);
+    -webkit-box-shadow: -4px 4px 9px 0px rgba(103, 103, 103, 0.46);
+    -moz-box-shadow: -4px 4px 9px 0px rgba(103, 103, 103, 0.46);
 }
 
 .btn-submit {
@@ -260,7 +284,7 @@ span {
 footer {
     color: #f1f2f7;
     min-height: 70px;
-    background-color: #1F1F27; 
+    background-color: #1F1F27;
 }
 
 
@@ -271,11 +295,11 @@ footer {
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
