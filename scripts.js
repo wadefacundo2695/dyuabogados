@@ -3,6 +3,22 @@ window.onload = function () {
   new bootstrap.Carousel(myCarousel, { interval: 4000 }).cycle();
 }
 
+function verMas() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("btnVerMas");
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Ver más"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Ver menos"; 
+    $("#more").fadeIn(300);
+    //moreText.style.display = "inline";
+  }
+}
+
 function abrirTab(tab) {
   var i, tabcontent;
 

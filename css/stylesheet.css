@@ -16,6 +16,7 @@ body {
     font-size: 1rem;
 }
 
+
 @media (min-width: 360px) {
     .card-body {
         background: #f1f2f7;
@@ -50,6 +51,16 @@ body {
     .home {
         padding-top: 0rem;
         padding-bottom: 0rem;
+        background-size: unset;
+        min-height: 62vh;
+    }
+    
+    #more {
+        display: none;
+    }
+
+    #dots, #btnVerMas {
+        display: inline;
     }
 }
 
@@ -65,10 +76,19 @@ body {
         max-height: 26rem;
     }
 
+    #more {
+        display: inline;
+    }
+
+    #dots, #btnVerMas {
+        display: none;
+    }
 
     .home {
         padding-top: 3rem;
         padding-bottom: 3rem;
+        background-size: cover;
+        min-height: 82vh;
     }
 }
 
@@ -198,6 +218,8 @@ body {
     }
 }
 
+
+
 .nav-item {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -208,7 +230,7 @@ body {
     backdrop-filter: blur(4px);
     background-size: cover;
     height: 100%;
-    min-height: 80.9vh;
+    min-height: 81vh;
 }
 
 .lead-header {
@@ -241,6 +263,15 @@ span {
 #main-tab {
     display: block;
     text-align: justify;
+}
+
+#btnVerMas {
+    border: 0;
+    border-radius: 5px;
+    color: #f1f2f7;
+    background: #1F1F27;
+    padding: 0.75rem;
+    min-width: 10rem;
 }
 
 #presentation-text {
