@@ -49,10 +49,10 @@ body {
     }
 
     .home {
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-        background-size: unset;
-        min-height: 62vh;
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+        background-size: unset !important;
+        min-height: 62vh !important;
     }
     
     #more {
@@ -85,10 +85,10 @@ body {
     }
 
     .home {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        background-size: cover;
-        min-height: 82vh;
+        padding-top: 3rem !important; 
+        padding-bottom: 3rem !important;
+        background-size: cover !important;
+        min-height: 82vh !important;
     }
 }
 
@@ -228,9 +228,6 @@ body {
 .home {
     background: url('../img/justicia.webp') no-repeat;
     backdrop-filter: blur(4px);
-    background-size: cover;
-    height: 100%;
-    min-height: 81vh;
 }
 
 .lead-header {

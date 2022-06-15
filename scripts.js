@@ -14,8 +14,7 @@ function verMas() {
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Ver menos"; 
-    $("#more").fadeIn(300);
-    //moreText.style.display = "inline";
+    $("#more").fadeIn(200);
   }
 }
 
